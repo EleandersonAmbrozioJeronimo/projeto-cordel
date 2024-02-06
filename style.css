@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Single";
+    src: url(SingleDay-Regular.ttf) format("truetype");
+}
+
+*{
+    margin: 0px;
+    padding: 0PX;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    font-family: monospace;
+    font-size: 80px;
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-size: 7vw;
+
+}
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: 'Single';
+    font-size: 3vw;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: rgb(201, 190, 190);
+    color: black;
+    
+}
+
+section.imagem{
+    background-color: rgb(141, 141, 141);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.589);
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.637);
+    padding: 7px;
+}
+
+section#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
